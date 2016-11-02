@@ -1,0 +1,12 @@
+{
+    "name": "openag_TSL2561",
+    "keywords": "openag, grove, Adafruit",
+    "description": "OpenAg modified Adafruit driver for the Grove digital light sensor TSL2561",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MisterBurnley/openag_TSL2561Ada.git"
+    },
+    "frameworks": "arduino",
+    "platforms": "*",
+    "dependencies": []
+}

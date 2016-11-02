@@ -1,0 +1,20 @@
+{
+    "description": "Openag modified Adafruit driver for the Grove TSL2561 Digital Light Sensor",
+    "class_name": "LIT2561",
+    "header_file": "openag_lit2561.h",
+    "arguments":[
+        { 
+            "name": "i2c_address",
+            "type": "int",
+            "default": 29
+        }
+    ],
+    "outputs": {
+        "light_illuminance": {
+            "type": "std_msgs/Int32"
+        }
+    },
+    "dependencies": [
+        {"type": "git", "url": "http://github.com/OpenAgInitiative/openag_firmware_module.git"}
+    ]
+}
