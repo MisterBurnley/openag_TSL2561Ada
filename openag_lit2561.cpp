@@ -41,7 +41,7 @@ void LIT2561::update() {
   else {
   begin();
   }
-  delay(250);
+  delay(1000);
 
 }
 
